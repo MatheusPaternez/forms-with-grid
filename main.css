@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+/* First Example */
+
+body {
+    background-color: #3949e6;
+}
+
+form {
+    display: grid;
+    grid-auto-columns: 400px;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+h1 {
+    font-family: arial;
+    text-align: center;
+    /* margin-top: 14%; */
+    margin-bottom: 8px;
+    color: white;
+}
+
+h3 {
+    font-family: arial;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0;
+    color: white;
+}
+
+.texts {
+    display: grid;
+    gap: 10px;
+}
+
+.name-email {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+}
+
+.phone-number {
+    display: grid;
+    text-align: center;
+}
+.name{
+    display: grid;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.email{
+    display: grid;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.phone-number-text{
+    display: grid;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+button{
+    display: grid;
+    width: 110px;
+    margin-top: 30px;
+    padding: 8px;
+    border-radius: 6px;
+    color: #3949e6;
+}
+
+.example-2-link{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-top: 200px;
+    margin-left: 3%;
+}
+
+.example-3-link{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-top: 200px;
+    margin-left: 3%;
+}
+
+/* Second Example */
