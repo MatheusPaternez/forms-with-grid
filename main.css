@@ -182,10 +182,104 @@ div.div-side-text p {
 
 .example-1-link-page-2,
 .example-3-link-page-2,
-.example-4-link-page-2{
+.example-4-link-page-2 {
     color: black;
     text-decoration: none;
 }
 
 /* Third Example */
 
+.example-3-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    margin: 70px 0px 0px 50px;
+}
+
+.example-3-subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.img-text-3-left {
+    display: grid;
+    margin-left: 50px;
+    width: 300px;
+}
+
+.phone-number-3 {
+    width: 300px;
+}
+
+.text-3-right {
+    display: inline-block;
+    width: 300px;
+    padding-right: 300px;
+}
+
+.big-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: left;
+}
+
+.select-3 {
+    width: 300px;
+    border: 1px solid #cbd5e1;
+    background-color: #f8fafc;
+}
+
+.text-3 {
+    height: 30px;
+    border-radius: 6px;
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+}
+
+.text-3::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #cbd5e1;
+}
+
+.textarea-3 {
+    resize: none;
+    width: 300px;
+    height: 100px;
+    border-radius: 6px;
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+}
+
+.textarea-3::placeholder {
+    color: black;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph-3 {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+    margin-bottom: 8px;
+}
+
+.nav-pag-3 {
+    padding-top: 200px;
+}
+
+.example-1-link-page-3,
+.example-2-link-page-3,
+.example-4-link-page-3 {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-3 {
+    width: 120px;
+    padding: 6px;
+    margin-top: 25px;
+    margin-left: 37.4%;
+    background-color: #3c80f9;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+}

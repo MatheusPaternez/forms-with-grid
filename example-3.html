@@ -1,16 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <title>Example 3 Forms With Grid</title>
 </head>
+
 <body class="body-3">
     <form class="form-3">
-        <h2 class=""></h2>
 
+        <h2 class="example-3-title">Book your appointment now</h2>
+        <p class="example-3-subtitle">So our team can reach out to you on time</p>
+        <div class="big-grid">
+            <div class="img-text-3-left">
+                <p class="paragraph-3">Full Name</p>
+                <input class="text-3" type="text" name="full-name" placeholder="eg: John Doe">
+                <p class="paragraph-3">Email</p>
+                <input class="text-3" type="email" name="email" placeholder="eg: john@gmail.com">
+                <p class="paragraph-3">Phone Number</p>
+                <div class="phone-number-3">
+                    <select class="text-3" name="country-code">
+                        <option value="+971">+971</option>
+                    </select>
+                    <input class="phone-number-3-text text-3" type="number" name="phone-number" placeholder="543210987">
+                </div>
+            </div>
+            <div class="text-3-right">
+                <p class="paragraph-3">Available Date</p>
+                <select class="select-3 text-3" name="available-date" class="available-date">
+                    <option value="Select">Select</option>
+                </select>
+                <p class="paragraph-3">Share your message </p>
+                <textarea class="textarea-3" name="message" rows="4" cols="30" placeholder="Message"></textarea>
+
+            </div>
+
+        </div>
+
+        <button class="btn-3" type="submit">Book Now</button>
+
+        <nav class="nav-pag-3">
+            <a class="example-1-link-page-3" href="index.html">Example 1</a>
+            <a class="example-2-link-page-3" href="example-2.html">Example 2</a>
+            <a class="example-4-link-page-3" href="example-4.html">Example 4</a>
+        </nav>
     </form>
-    
+
 </body>
+
 </html>
